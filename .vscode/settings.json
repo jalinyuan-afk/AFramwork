@@ -1,0 +1,57 @@
+{
+    // ===== 强制 UTF-8 编码（无BOM - Unity 和跨平台项目推荐）=====
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": false,
+    
+    // ===== 行尾设置 =====
+    "files.eol": "\n",
+    
+    // ===== 隐藏 Unity .meta 文件 =====
+    "files.exclude": {
+        "**/*.meta": true,
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "Library": true,
+        "Temp": true,
+        "obj": true,
+        "Logs": true
+    },
+    
+    // ===== 从搜索中排除 .meta 文件 =====
+    "search.exclude": {
+        "**/*.meta": true,
+        "**/Library": true,
+        "**/Temp": true,
+        "**/obj": true,
+        "**/Logs": true
+    },
+    
+    // ===== 文件关联 =====
+    "files.associations": {
+        "*.cs": "csharp"
+    },
+    
+    // ===== C# 相关配置 =====
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp",
+        "editor.formatOnSave": true,
+        "files.encoding": "utf8"
+    },
+    
+    // ===== JSON 配置 =====
+    "[json]": {
+        "files.encoding": "utf8"
+    },
+    
+    // ===== Markdown 配置 =====
+    "[markdown]": {
+        "files.encoding": "utf8"
+    },
+    
+    // ===== Unity 相关 =====
+    "omnisharp.enableEditorConfigSupport": true,
+    "dotnet.defaultSolution": "TradeGamePro.sln",
+    
+    "AndreaNovelHelper.workspaceDisabled": true
+}

@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 401f8801d0e5098439a6f267b2f0212e, type: 3}
+  m_Name: LoggingConfig
+  m_EditorClassIdentifier: 
+  _configId: 1001
+  _description: "\u65E5\u5FD7\u914D\u7F6E"
+  _globalEnabled: 1
+  _minLogLevel: 1
+  _categoryToggles:
+  - category: 1
+    enabled: 1
+    displayName: "System - \u7CFB\u7EDF\u521D\u59CB\u5316\u3001\u751F\u547D\u5468\u671F"
+  - category: 2
+    enabled: 0
+    displayName: "UI - UI \u4EA4\u4E92\u3001\u663E\u793A"
+  - category: 4
+    enabled: 1
+    displayName: "Trade - \u4EA4\u6613\u3001\u5546\u4EBA"
+  - category: 8
+    enabled: 1
+    displayName: "Quest - \u4EFB\u52A1\u7CFB\u7EDF"
+  - category: 16
+    enabled: 0
+    displayName: "Inventory - \u5E93\u5B58\u7CFB\u7EDF"
+  - category: 32
+    enabled: 0
+    displayName: "Time - \u65F6\u95F4\u63A8\u8FDB"
+  - category: 64
+    enabled: 0
+    displayName: "Weather - \u5929\u6C14\u7CFB\u7EDF"
+  - category: 128
+    enabled: 0
+    displayName: "Travel - \u65C5\u884C\u3001\u79FB\u52A8"
+  - category: 256
+    enabled: 0
+    displayName: "City - \u57CE\u5E02\u4EA4\u4E92"
+  - category: 512
+    enabled: 0
+    displayName: "AI - AI \u7CFB\u7EDF"
+  - category: 1024
+    enabled: 0
+    displayName: "Event - \u4E8B\u4EF6\u7CFB\u7EDF"
+  - category: 2048
+    enabled: 0
+    displayName: "Resource - \u8D44\u6E90\u7BA1\u7406"
+  - category: 4096
+    enabled: 0
+    displayName: "Save - \u5B58\u6863\u7CFB\u7EDF"
+  - category: 8192
+    enabled: 0
+    displayName: "Character - \u89D2\u8272\u7CFB\u7EDF"
+  - category: 16384
+    enabled: 0
+    displayName: "Gameplay - \u6838\u5FC3\u73A9\u6CD5"
+  - category: 32768
+    enabled: 1
+    displayName: "Procedure - \u6D41\u7A0B\u7BA1\u7406"
+  - category: 65536
+    enabled: 1
+    displayName: "Config - \u914D\u7F6E\u7BA1\u7406"
+  - category: 131072
+    enabled: 0
+    displayName: "Localization - \u672C\u5730\u5316\u7CFB\u7EDF"
+  - category: 524288
+    enabled: 0
+    displayName: "DataTable - \u6570\u636E\u8868\u7BA1\u7406"
+  - category: 1048576
+    enabled: 0
+    displayName: "Sound - \u97F3\u9891\u7CFB\u7EDF"
+  - category: 2097152
+    enabled: 1
+    displayName: "Scene - \u573A\u666F\u7BA1\u7406"
+  - category: 4194304
+    enabled: 0
+    displayName: "Setting - \u8BBE\u7F6E\u7CFB\u7EDF"
+  - category: 8388608
+    enabled: 0
+    displayName: "Entity - \u5B9E\u4F53\u7CFB\u7EDF"
+  _logToFile: 0
+  _logFilePath: Logs/game.log
+  _includeStackTrace: 1
+  _includeTimestamp: 1
+  _defaultPreset: 1
