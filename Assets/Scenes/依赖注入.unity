@@ -375,6 +375,58 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &270742327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 270742329}
+  - component: {fileID: 270742328}
+  m_Layer: 0
+  m_Name: LogManagerController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &270742328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270742327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5387b4aa1a60d664aa244e268e016560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loggingConfig: {fileID: 11400000, guid: f3b0d374369968b4caac5be29f80086d, type: 2}
+  overrideConfig: 0
+  overrideGlobalEnabled: 1
+  overrideMinLogLevel: 0
+  overrideCategories: -1
+  applyOnStart: 1
+  applyPresetOnStart: 0
+  startPreset: 1
+--- !u!4 &270742329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 270742327}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 597.59076, y: 326.31677, z: -1.7888924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &397202668
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,3 +2506,4 @@ SceneRoots:
   - {fileID: 692608096}
   - {fileID: 242391724}
   - {fileID: 1220883165}
+  - {fileID: 270742329}

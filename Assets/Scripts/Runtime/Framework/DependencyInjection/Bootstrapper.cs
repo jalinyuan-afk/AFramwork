@@ -82,29 +82,6 @@ namespace TradeGame.Runtime.Framework
             builder.Register<TimeService>(Lifetime.Singleton).As<ITimeService>();
 
             // 注意：业务服务（如 ShopService）应由各自的 IServiceRegistrar 负责注册
-            // 例如 ShopServiceRegistrar 会注册 IShopService
-            // 这样做的好处是保持 Bootstrapper 的整洁，职责清晰
-            // 注册配置模块（纯C#安装器）
-            // new ConfigInstaller().Install(builder);
-            // // 注册资源模块（纯C#安装器）
-            // new ResourceInstaller().Install(builder);
-            // // 注册场景模块（纯C#安装器）
-            // new SceneInstaller().Install(builder);
-            // // 注册本地化模块（纯C#安装器）
-            // new LocalizationInstaller().Install(builder);
-            // // 注册流程模块（纯C#安装器）
-            // new ProcedureInstaller().Install(builder);
-            // // 注册数据表模块（纯C#安装器）
-            // new DataTableInstaller().Install(builder);
-            // new SaveInstaller().Install(builder);
-            // // 注册UI模块（纯C#安装器）
-            // new UIInstaller().Install(builder);
-
-            // // 注册核心服务到根容器，供跨场景访问
-            // builder.Register<PlayerProfileService>(Lifetime.Transient).As<IPlayerProfileService>();
-            // builder.Register<AttributeService>(Lifetime.Singleton).As<IAttributeService>();
-            // builder.Register<FactionService>(Lifetime.Singleton).As<IFactionService>();
-
             // 注册自定义安装器
             foreach (var installer in _additionalInstallers)
             {
